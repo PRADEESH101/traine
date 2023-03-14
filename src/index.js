@@ -56,3 +56,66 @@
 // ];
 
 // const activeJobs = jobs.filter(function(job) { return job.isActive;});
+
+// const person ={
+//     talk() {
+//         var self =this;
+//         setTimeout(() => {
+//             console.log("self",self);
+//         },1000);
+        
+//     }
+// };
+
+// person.talk();
+
+
+// const colors = ['red','green','blue'];
+// const items = colors.map(color => `<li>${color}</li>`);
+// console.log(items)
+
+// const address ={
+//     street:'',
+//     city:'',
+//     country:''
+// };
+
+// const street = address.street;
+// const city = address.city;
+// const country = address.country;
+
+// const{ street: st, city, country} = address;
+
+// class Person{
+//     constructor(name){
+//         this.name = name;
+//     }
+// walk() {
+//     console.log("walk");
+// }
+// }
+
+// const person = new Person('Natrajasivam');
+// console.log(person);
+
+// const first ={name: 'pradeesh'};
+// const second = { job:'Devloper'};
+
+// const combined = {...first,...second,location:'Madurai'};
+// console.log(combined);
+
+// class Teacher extends Person{
+//     constructor(name,degree){
+//         super(name);
+//         this.degree = degree;
+//     }
+    
+//     teach(){
+//         console.log('teach');
+//     }
+// }
+// const teacher = new Teacher("Nottu","BE");
+// console.log(teacher);
+
+
+
